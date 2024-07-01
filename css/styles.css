@@ -1,16 +1,87 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  user-select: none;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-h1{
-    color: white;
-    text-align: center;
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 75px 50px 25px;
+}
+
+p {
+  margin: auto 50px auto;
+}
+
+li {
+  margin-left: 50px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.main-page-heading {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.main-page-navigation a {
+  text-decoration: none;
+}
+
+.main-page-navigation a:hover {
+  color: red;
+}
+
+.main-page-navigation li {
+  margin-top: 50px;
+  font-size: 24px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.recipe-heading {
+  margin: 50px;
+}
+
+.recipe-picture {
+  display: block;
+  margin: 0 auto 150px;
+  border: 10px double aqua;
+  width: 50%;
+  height: 50%;
+}
+
+.source-links li {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.source-links a {
+  color: gray;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  color: gray;
 }
